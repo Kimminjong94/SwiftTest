@@ -7,23 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		584328A927F8267700444F60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584328A827F8267700444F60 /* ViewController.swift */; };
+		586F079127F827FF004AB402 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 586F079027F827FF004AB402 /* loading.gif */; };
 		58DC9DC427D9B59000EC34CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC9DC327D9B59000EC34CA /* AppDelegate.swift */; };
 		58DC9DC627D9B59000EC34CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC9DC527D9B59000EC34CA /* SceneDelegate.swift */; };
-		58DC9DC827D9B59000EC34CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58DC9DC727D9B59000EC34CA /* ViewController.swift */; };
 		58DC9DCB27D9B59000EC34CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC9DC927D9B59000EC34CA /* Main.storyboard */; };
 		58DC9DCD27D9B59000EC34CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DC9DCC27D9B59000EC34CA /* Assets.xcassets */; };
 		58DC9DD027D9B59000EC34CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58DC9DCE27D9B59000EC34CA /* LaunchScreen.storyboard */; };
+		58DC9DDE27D9BCB600EC34CA /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 58DC9DDD27D9BCB600EC34CA /* SwipeCellKit */; };
+		F3DE0D583EED861703923416 /* Pods_SwiftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECB479DD624F19D94E3BDFAD /* Pods_SwiftTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40DC813E23D5D74EA9E26C70 /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.release.xcconfig"; path = "Target Support Files/Pods-SwiftTest/Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
+		584328A827F8267700444F60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		586F079027F827FF004AB402 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		58DC9DC027D9B59000EC34CA /* SwiftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58DC9DC327D9B59000EC34CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		58DC9DC527D9B59000EC34CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		58DC9DC727D9B59000EC34CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		58DC9DCA27D9B59000EC34CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58DC9DCC27D9B59000EC34CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58DC9DCF27D9B59000EC34CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58DC9DD127D9B59000EC34CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6664CD7C0C92D982FB54D0B1 /* Pods-SwiftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTest/Pods-SwiftTest.debug.xcconfig"; sourceTree = "<group>"; };
+		ECB479DD624F19D94E3BDFAD /* Pods_SwiftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58DC9DDE27D9BCB600EC34CA /* SwipeCellKit in Frameworks */,
+				F3DE0D583EED861703923416 /* Pods_SwiftTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				58DC9DC227D9B59000EC34CA /* SwiftTest */,
 				58DC9DC127D9B59000EC34CA /* Products */,
+				88623FC758A335D4F5E8DB52 /* Pods */,
+				9E8F54E3E4AF3A414C586C60 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +69,31 @@
 			children = (
 				58DC9DC327D9B59000EC34CA /* AppDelegate.swift */,
 				58DC9DC527D9B59000EC34CA /* SceneDelegate.swift */,
-				58DC9DC727D9B59000EC34CA /* ViewController.swift */,
+				584328A827F8267700444F60 /* ViewController.swift */,
 				58DC9DC927D9B59000EC34CA /* Main.storyboard */,
 				58DC9DCC27D9B59000EC34CA /* Assets.xcassets */,
 				58DC9DCE27D9B59000EC34CA /* LaunchScreen.storyboard */,
+				586F079027F827FF004AB402 /* loading.gif */,
 				58DC9DD127D9B59000EC34CA /* Info.plist */,
 			);
 			path = SwiftTest;
+			sourceTree = "<group>";
+		};
+		88623FC758A335D4F5E8DB52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6664CD7C0C92D982FB54D0B1 /* Pods-SwiftTest.debug.xcconfig */,
+				40DC813E23D5D74EA9E26C70 /* Pods-SwiftTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E8F54E3E4AF3A414C586C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECB479DD624F19D94E3BDFAD /* Pods_SwiftTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +103,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58DC9DD427D9B59000EC34CA /* Build configuration list for PBXNativeTarget "SwiftTest" */;
 			buildPhases = (
+				5C4ABB3217E73AB560CF3688 /* [CP] Check Pods Manifest.lock */,
 				58DC9DBC27D9B59000EC34CA /* Sources */,
 				58DC9DBD27D9B59000EC34CA /* Frameworks */,
 				58DC9DBE27D9B59000EC34CA /* Resources */,
+				D2D6645EB7A6676723DF21B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SwiftTest;
+			packageProductDependencies = (
+				58DC9DDD27D9BCB600EC34CA /* SwipeCellKit */,
+			);
 			productName = SwiftTest;
 			productReference = 58DC9DC027D9B59000EC34CA /* SwiftTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +145,9 @@
 				Base,
 			);
 			mainGroup = 58DC9DB727D9B59000EC34CA;
+			packageReferences = (
+				58DC9DDC27D9BCB600EC34CA /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+			);
 			productRefGroup = 58DC9DC127D9B59000EC34CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				586F079127F827FF004AB402 /* loading.gif in Resources */,
 				58DC9DD027D9B59000EC34CA /* LaunchScreen.storyboard in Resources */,
 				58DC9DCD27D9B59000EC34CA /* Assets.xcassets in Resources */,
 				58DC9DCB27D9B59000EC34CA /* Main.storyboard in Resources */,
@@ -133,12 +171,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C4ABB3217E73AB560CF3688 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D6645EB7A6676723DF21B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTest/Pods-SwiftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58DC9DBC27D9B59000EC34CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58DC9DC827D9B59000EC34CA /* ViewController.swift in Sources */,
+				584328A927F8267700444F60 /* ViewController.swift in Sources */,
 				58DC9DC427D9B59000EC34CA /* AppDelegate.swift in Sources */,
 				58DC9DC627D9B59000EC34CA /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +364,7 @@
 		};
 		58DC9DD527D9B59000EC34CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6664CD7C0C92D982FB54D0B1 /* Pods-SwiftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +393,7 @@
 		};
 		58DC9DD627D9B59000EC34CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40DC813E23D5D74EA9E26C70 /* Pods-SwiftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +442,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58DC9DDC27D9BCB600EC34CA /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58DC9DDD27D9BCB600EC34CA /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58DC9DDC27D9BCB600EC34CA /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58DC9DB827D9B59000EC34CA /* Project object */;
 }

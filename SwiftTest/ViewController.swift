@@ -11,10 +11,10 @@ import TinyConstraints
 
 class ViewController: UIViewController {
 
-//    @IBOutlet weak var loadingGif: GIFImageView!
+    @IBOutlet weak var loadingGif: GIFImageView!
     
     @IBOutlet weak var image: UIImageView!
-    let gifImageView = GIFImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+//    let gifImageView = GIFImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
 
     
     override func viewDidLoad() {
@@ -25,15 +25,17 @@ class ViewController: UIViewController {
     
     
     func animate() {
-//        self.loadingGif.animate(withGIFNamed: "loading")
+        self.loadingGif.animate(withGIFNamed: "loading")
         
-        view.addSubview(gifImageView)
-        
-        gifImageView.animate(withGIFNamed: "loading")
-        
-//        gifImageView.centerInSuperview()
-        gifImageView.width(view.frame.width)
-        gifImageView.bottomToSuperview()
+//        let height = view.height(100)
+//
+//        height.constant = 200
+//
+        self.loadingGif.width(view.frame.width)
+        self.loadingGif.contentMode = .scaleToFill
+        loadingGif.height(500)
+    
+
 
     }
     

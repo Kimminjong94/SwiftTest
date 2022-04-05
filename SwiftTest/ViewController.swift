@@ -33,9 +33,8 @@ class ViewController: UIViewController {
 //
         self.loadingGif.width(view.frame.width)
         self.loadingGif.contentMode = .scaleToFill
-        loadingGif.height(500)
-    
-
+        loadingGif.height(1000)
+        loadingGif.topToSuperview()
 
     }
     

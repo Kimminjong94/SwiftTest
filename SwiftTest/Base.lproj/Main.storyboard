@@ -23,28 +23,16 @@
                                     <constraint firstAttribute="height" constant="200" id="dYw-HV-I6d"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading.gif" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Kj-Xz-0rk" customClass="GIFImageView" customModule="Gifu">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="760"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="760" id="pua-SW-lYw"/>
-                                </constraints>
-                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Kj-Xz-0rk" secondAttribute="trailing" id="3k0-pt-bjL"/>
                             <constraint firstItem="swN-nr-liC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="BYe-Yo-0F9"/>
-                            <constraint firstItem="7Kj-Xz-0rk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-44" id="F8Y-p7-y3c"/>
                             <constraint firstItem="swN-nr-liC" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JFM-XK-3gd"/>
-                            <constraint firstItem="7Kj-Xz-0rk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Y81-tC-ekI"/>
-                            <constraint firstItem="7Kj-Xz-0rk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fQZ-Zk-BRe"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="image" destination="swN-nr-liC" id="VJi-wR-M2m"/>
-                        <outlet property="loadingGif" destination="7Kj-Xz-0rk" id="aN2-ed-Oeo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,7 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="loading.gif" width="360" height="760"/>
         <image name="pencil.tip.crop.circle.badge.minus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

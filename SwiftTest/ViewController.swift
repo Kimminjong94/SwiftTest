@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var loadingGif: GIFImageView!
     
     @IBOutlet weak var image: UIImageView!
-//    let gifImageView = GIFImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+    let gifImageView = GIFImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
 
     
     override func viewDidLoad() {
@@ -25,6 +25,8 @@ class ViewController: UIViewController {
     
     
     func animate() {
+        
+        self.loadingGif.addSubview(loadingGif)
         self.loadingGif.animate(withGIFNamed: "loading")
         
 //        let height = view.height(100)

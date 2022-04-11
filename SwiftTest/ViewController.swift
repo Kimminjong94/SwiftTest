@@ -11,6 +11,8 @@ import TinyConstraints
 
 class ViewController: UIViewController {
 
+    
+
     @IBOutlet weak var testCollectionView: UICollectionView!
     @IBOutlet weak var loadingGif: GIFImageView!
     
@@ -21,7 +23,24 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-//        animate()
+        testCollectionView.dataSource = self
+        testCollectionView.delegate = self
+        
+    }
+}
+    
+    
+    
+    extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+        
+        func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+            return 3
+        }
+        
+        func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+            return 1
+        }
+        
     }
     
     
@@ -40,10 +59,3 @@ class ViewController: UIViewController {
 //        loadingGif.topToSuperview()
 //
 //    }
-    
-    
-    
-
-
-
-}

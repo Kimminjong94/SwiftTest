@@ -38,7 +38,16 @@ class ViewController: UIViewController {
         }
         
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-            return 1
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TestCV", for: indexPath) as! TestCV
+            cell.self
+        }
+        
+        func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+            if (testCollectionView != nil) {
+                let vc = CheckVC(coder: NSCoder, type: , history: <#T##Double?#>)
+                
+                vc?.present(animated: true, completion: nil)
+            }
         }
         
     }

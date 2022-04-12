@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		584328A927F8267700444F60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584328A827F8267700444F60 /* ViewController.swift */; };
 		586F079127F827FF004AB402 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 586F079027F827FF004AB402 /* loading.gif */; };
-		58B7C28E2800387500400BE0 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7C28D2800387500400BE0 /* Test.swift */; };
+		58B7C28E2800387500400BE0 /* CheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7C28D2800387500400BE0 /* CheckVC.swift */; };
 		58D7D9B72801CFEF000A11C0 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7D9B62801CFEF000A11C0 /* SecondVC.swift */; };
 		58D7D9BA2801D026000A11C0 /* TestCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7D9B82801D026000A11C0 /* TestCV.swift */; };
 		58D7D9BB2801D026000A11C0 /* TestCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D7D9B92801D026000A11C0 /* TestCV.xib */; };
@@ -26,7 +26,7 @@
 		40DC813E23D5D74EA9E26C70 /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.release.xcconfig"; path = "Target Support Files/Pods-SwiftTest/Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
 		584328A827F8267700444F60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		586F079027F827FF004AB402 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
-		58B7C28D2800387500400BE0 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		58B7C28D2800387500400BE0 /* CheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVC.swift; sourceTree = "<group>"; };
 		58D7D9B62801CFEF000A11C0 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		58D7D9B82801D026000A11C0 /* TestCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCV.swift; sourceTree = "<group>"; };
 		58D7D9B92801D026000A11C0 /* TestCV.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCV.xib; sourceTree = "<group>"; };
@@ -86,15 +86,15 @@
 			children = (
 				58DC9DC327D9B59000EC34CA /* AppDelegate.swift */,
 				58DC9DC527D9B59000EC34CA /* SceneDelegate.swift */,
+				58D7D9BC2801D02A000A11C0 /* Cell */,
 				584328A827F8267700444F60 /* ViewController.swift */,
-				58B7C28D2800387500400BE0 /* Test.swift */,
+				58B7C28D2800387500400BE0 /* CheckVC.swift */,
 				58DC9DC927D9B59000EC34CA /* Main.storyboard */,
 				58DC9DCC27D9B59000EC34CA /* Assets.xcassets */,
 				58DC9DCE27D9B59000EC34CA /* LaunchScreen.storyboard */,
 				586F079027F827FF004AB402 /* loading.gif */,
 				58DC9DD127D9B59000EC34CA /* Info.plist */,
 				58D7D9B62801CFEF000A11C0 /* SecondVC.swift */,
-				58D7D9BC2801D02A000A11C0 /* Cell */,
 			);
 			path = SwiftTest;
 			sourceTree = "<group>";
@@ -242,7 +242,7 @@
 				58D7D9BA2801D026000A11C0 /* TestCV.swift in Sources */,
 				584328A927F8267700444F60 /* ViewController.swift in Sources */,
 				58D7D9B72801CFEF000A11C0 /* SecondVC.swift in Sources */,
-				58B7C28E2800387500400BE0 /* Test.swift in Sources */,
+				58B7C28E2800387500400BE0 /* CheckVC.swift in Sources */,
 				58DC9DC427D9B59000EC34CA /* AppDelegate.swift in Sources */,
 				58DC9DC627D9B59000EC34CA /* SceneDelegate.swift in Sources */,
 			);

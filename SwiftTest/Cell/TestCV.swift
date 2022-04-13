@@ -8,7 +8,8 @@
 import UIKit
 
 class TestCV: UICollectionViewCell {
-
+    @IBOutlet weak var testText: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

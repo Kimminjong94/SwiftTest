@@ -40,6 +40,9 @@
                 <constraint firstItem="Eno-bz-a6C" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Hks-BG-Sh6"/>
             </constraints>
             <size key="customSize" width="344" height="163"/>
+            <connections>
+                <outlet property="testText" destination="Mc4-pe-tAB" id="v2B-lW-MrZ"/>
+            </connections>
             <point key="canvasLocation" x="344.92753623188406" y="113.50446428571428"/>
         </collectionViewCell>
     </objects>

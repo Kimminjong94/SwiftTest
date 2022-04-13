@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var image: UIImageView!
     let gifImageView = GIFImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+    
+    
 
     
     override func viewDidLoad() {
@@ -39,16 +41,17 @@ class ViewController: UIViewController {
         
         func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TestCV", for: indexPath) as! TestCV
-            cell.self
+            cell.testText.text = "Test"
+            return cell
         }
-        
-        func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-            if (testCollectionView != nil) {
-                let vc = CheckVC(coder: NSCoder, type: , history: <#T##Double?#>)
-                
-                vc?.present(animated: true, completion: nil)
-            }
-        }
+//
+//        func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//            if (testCollectionView != nil) {
+//                let vc = CheckVC(coder: NSCoder, type: , history: <#T##Double?#>)
+//
+//                vc?.present(animated: true, completion: nil)
+//            }
+//        }
         
     }
     

@@ -65,28 +65,9 @@
                     <view key="view" contentMode="scaleToFill" id="taF-eS-xHE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZVc-eR-REq">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="j0I-QE-0QG"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="ZVc-eR-REq" firstAttribute="top" secondItem="taF-eS-xHE" secondAttribute="top" id="0wE-wT-Pn3"/>
-                            <constraint firstItem="ZVc-eR-REq" firstAttribute="trailing" secondItem="j0I-QE-0QG" secondAttribute="trailing" id="5hx-Dt-zng"/>
-                            <constraint firstAttribute="bottom" secondItem="ZVc-eR-REq" secondAttribute="bottom" id="APQ-qf-FJ0"/>
-                            <constraint firstItem="ZVc-eR-REq" firstAttribute="leading" secondItem="j0I-QE-0QG" secondAttribute="leading" id="zpL-42-Hu8"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="testWebView" destination="ZVc-eR-REq" id="hX4-OG-8Xy"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LJN-oW-MJd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

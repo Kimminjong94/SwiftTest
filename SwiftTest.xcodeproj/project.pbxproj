@@ -12,6 +12,7 @@
 		58A3AE292806A58100E6DC0D /* DanalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A3AE282806A58100E6DC0D /* DanalTest.swift */; };
 		58A3AE2C2806BD2300E6DC0D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 58A3AE2B2806BD2300E6DC0D /* File */; };
 		58B7C28E2800387500400BE0 /* CheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7C28D2800387500400BE0 /* CheckVC.swift */; };
+		58C3E6FF2809344500E3FFF1 /* Header.html in Resources */ = {isa = PBXBuildFile; fileRef = 58A3AE2A2806BCA000E6DC0D /* Header.html */; };
 		58D7D9B72801CFEF000A11C0 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7D9B62801CFEF000A11C0 /* SecondVC.swift */; };
 		58D7D9BA2801D026000A11C0 /* TestCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D7D9B82801D026000A11C0 /* TestCV.swift */; };
 		58D7D9BB2801D026000A11C0 /* TestCV.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D7D9B92801D026000A11C0 /* TestCV.xib */; };
@@ -190,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58C3E6FF2809344500E3FFF1 /* Header.html in Resources */,
 				586F079127F827FF004AB402 /* loading.gif in Resources */,
 				58DC9DD027D9B59000EC34CA /* LaunchScreen.storyboard in Resources */,
 				58A3AE2C2806BD2300E6DC0D /* File in Resources */,

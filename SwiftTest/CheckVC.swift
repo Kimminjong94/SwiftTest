@@ -23,3 +23,5 @@ class CheckVC: UIViewController {
     let history: Double?
     
 }
+
+

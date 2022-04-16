@@ -41,16 +41,20 @@ IMP.certification({
         }).error( function( request, status, error ) {
             if(isMobile.IOS()){
                 // 브릿지 연동 : authFail는 브릿지 네임 (프로젝트에 맞게 설정 필요)
-                
                 webkit.messageHandlers.reqFail.postMessage( request.responseText );
             } else if(isMobile.Android()){
                 android.reqFail( request.responseText );
             }
         });
+        if(isMobile.IOS()){
+            // 브릿지 연동 (프로젝트에 맞게 설정 필요)
+            webkit.messageHandlers.authSuccess.postMessage(JSON.stringify(rsp));
+            webkit.messageHandlers.impUid.postMessage(JSON.stringify(imp_uid));
+            
+        }
     } else {
         // 인증취소 또는 인증실패
         if(isMobile.IOS()){
-            // 브릿지 연동 : authFail는 브릿지 네임 (프로젝트에 맞게 설정 필요)
             webkit.messageHandlers.authFail.postMessage(JSON.stringify(rsp));
         } else if(isMobile.Android()){
             android.authFail(JSON.stringify(rsp));

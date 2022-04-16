@@ -96,13 +96,13 @@
 				584328A827F8267700444F60 /* ViewController.swift */,
 				58B7C28D2800387500400BE0 /* CheckVC.swift */,
 				58A3AE282806A58100E6DC0D /* DanalTest.swift */,
+				58A3AE2A2806BCA000E6DC0D /* Header.html */,
 				58DC9DC927D9B59000EC34CA /* Main.storyboard */,
 				58DC9DCC27D9B59000EC34CA /* Assets.xcassets */,
 				58DC9DCE27D9B59000EC34CA /* LaunchScreen.storyboard */,
 				586F079027F827FF004AB402 /* loading.gif */,
 				58DC9DD127D9B59000EC34CA /* Info.plist */,
 				58D7D9B62801CFEF000A11C0 /* SecondVC.swift */,
-				58A3AE2A2806BCA000E6DC0D /* Header.html */,
 				58A3AE2B2806BD2300E6DC0D /* File */,
 			);
 			path = SwiftTest;

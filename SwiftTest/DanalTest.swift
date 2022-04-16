@@ -13,10 +13,6 @@ import SnapKit
 
 class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
     
-
-    
-
-    
     var webView: WKWebView?
 
     override func viewDidLoad() {
@@ -26,6 +22,7 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
         let contentController = WKUserContentController()
         contentController.add(self, name: "authSuccess")
         contentController.add(self, name: "authFail")
+        contentController.add(self, name: "impUid")
 
         let config = WKWebViewConfiguration()
         config.userContentController = contentController
@@ -53,11 +50,20 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
           let request = URLRequest(url: url)
           webView?.load(request)
       }
+    
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if message.name == "authSuccess" {
-          print("goood")
+            print(message.name. )
+)
+
+            print("goood")
+
+            self.performSegue(withIdentifier: "testSegue", sender: nil)
+
         } else if message.name == "authFail" {
           // 인증 취소, 실패 시 처리할 로직
+            print("failed")
+            self.performSegue(withIdentifier: "testSegue", sender: nil)
         }
     }
     

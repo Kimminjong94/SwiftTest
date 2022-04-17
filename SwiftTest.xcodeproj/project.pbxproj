@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		584328A927F8267700444F60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584328A827F8267700444F60 /* ViewController.swift */; };
 		586F079127F827FF004AB402 /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 586F079027F827FF004AB402 /* loading.gif */; };
+		58873916280A955B0001D190 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58873915280A955B0001D190 /* FinishVC.swift */; };
 		58A3AE292806A58100E6DC0D /* DanalTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A3AE282806A58100E6DC0D /* DanalTest.swift */; };
 		58A3AE2C2806BD2300E6DC0D /* File in Resources */ = {isa = PBXBuildFile; fileRef = 58A3AE2B2806BD2300E6DC0D /* File */; };
 		58B7C28E2800387500400BE0 /* CheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B7C28D2800387500400BE0 /* CheckVC.swift */; };
@@ -29,6 +30,7 @@
 		40DC813E23D5D74EA9E26C70 /* Pods-SwiftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTest.release.xcconfig"; path = "Target Support Files/Pods-SwiftTest/Pods-SwiftTest.release.xcconfig"; sourceTree = "<group>"; };
 		584328A827F8267700444F60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		586F079027F827FF004AB402 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		58873915280A955B0001D190 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 		58A3AE282806A58100E6DC0D /* DanalTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanalTest.swift; sourceTree = "<group>"; };
 		58A3AE2A2806BCA000E6DC0D /* Header.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Header.html; sourceTree = "<group>"; };
 		58A3AE2B2806BD2300E6DC0D /* File */ = {isa = PBXFileReference; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				58A3AE282806A58100E6DC0D /* DanalTest.swift */,
 				58A3AE2A2806BCA000E6DC0D /* Header.html */,
 				58DC9DC927D9B59000EC34CA /* Main.storyboard */,
+				58873915280A955B0001D190 /* FinishVC.swift */,
 				58DC9DCC27D9B59000EC34CA /* Assets.xcassets */,
 				58DC9DCE27D9B59000EC34CA /* LaunchScreen.storyboard */,
 				586F079027F827FF004AB402 /* loading.gif */,
@@ -253,6 +256,7 @@
 				58D7D9BA2801D026000A11C0 /* TestCV.swift in Sources */,
 				584328A927F8267700444F60 /* ViewController.swift in Sources */,
 				58D7D9B72801CFEF000A11C0 /* SecondVC.swift in Sources */,
+				58873916280A955B0001D190 /* FinishVC.swift in Sources */,
 				58A3AE292806A58100E6DC0D /* DanalTest.swift in Sources */,
 				58B7C28E2800387500400BE0 /* CheckVC.swift in Sources */,
 				58DC9DC427D9B59000EC34CA /* AppDelegate.swift in Sources */,

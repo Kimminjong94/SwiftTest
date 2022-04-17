@@ -21,7 +21,7 @@ var isMobile = {
 };
 
 var IMP = window.IMP; // 생략가능
-IMP.init(''); // 'imp00000000' 대신 부여받은 "가맹점 식별코드"를 사용
+IMP.init('imp03455327'); // 'imp00000000' 대신 부여받은 "가맹점 식별코드"를 사용
 
 /* 중략 */
 IMP.certification({
@@ -49,8 +49,8 @@ IMP.certification({
         if(isMobile.IOS()){
             // 브릿지 연동 (프로젝트에 맞게 설정 필요)
             webkit.messageHandlers.authSuccess.postMessage(JSON.stringify(rsp));
-            webkit.messageHandlers.impUid.postMessage(JSON.stringify(imp_uid));
-            
+            webkit.messageHandlers.impUid.postMessage(JSON.stringify(rsp.imp_uid));
+            console.log(JSON.stringify(rsp.imp_uid))
         }
     } else {
         // 인증취소 또는 인증실패

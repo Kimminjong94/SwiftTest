@@ -90,10 +90,10 @@
             </objects>
             <point key="canvasLocation" x="3815.9420289855075" y="-70.3125"/>
         </scene>
-        <!--View Controller-->
+        <!--FinishVC-->
         <scene sceneID="dRh-er-jC3">
             <objects>
-                <viewController id="uDk-IP-I1v" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FinishVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="uDk-IP-I1v" customClass="FinishVC" customModule="SwiftTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oUO-lV-AOY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -105,6 +105,13 @@
                                     <constraint firstAttribute="width" constant="240" id="ke3-fe-q3A"/>
                                 </constraints>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8uZ-7x-eHY">
+                                <rect key="frame" x="162" y="195" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Lfu-g8-yki"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -114,6 +121,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hky-NG-Ngs"/>
+                    <connections>
+                        <outlet property="finish" destination="8uZ-7x-eHY" id="KKP-wC-KmK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V7g-hC-QFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

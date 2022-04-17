@@ -53,8 +53,9 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
     
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         if message.name == "authSuccess" {
-            print(message.name. )
-)
+//            print(message.name. )
+            FinishVC().finish.text == "hi"
+
 
             print("goood")
 
@@ -63,7 +64,7 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
         } else if message.name == "authFail" {
           // 인증 취소, 실패 시 처리할 로직
             print("failed")
-            self.performSegue(withIdentifier: "testSegue", sender: nil)
+            self.navigationController?.popViewController(animated: true)
         }
     }
     

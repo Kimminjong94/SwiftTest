@@ -13,6 +13,8 @@ import SnapKit
 
 class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptMessageHandler {
     
+    var Constant: String? = ""
+    
     var webView: WKWebView?
 
     override func viewDidLoad() {
@@ -52,9 +54,26 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
       }
     
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
+        
+        
         if message.name == "authSuccess" {
-//            print(message.name. )
-            FinishVC().finish.text == "hi"
+            
+            if let dictionary: [String: String] = message.body as? Dictionary {
+                let mergedDicts = merge(dicts: dictionary)
+
+                }
+            }
+            
+            
+            
+            let receiveData = message.body as! String
+            
+
+            
+        
+            print(receiveData)
+            
+            
 
 
             print("goood")
@@ -67,6 +86,9 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
             self.navigationController?.popViewController(animated: true)
         }
     }
+
+
+    
     
 
 

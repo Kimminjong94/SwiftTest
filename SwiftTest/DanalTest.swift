@@ -16,6 +16,8 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
     var Constant: String? = ""
     
     var webView: WKWebView?
+    
+    var dic = [String : String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -55,28 +57,17 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
     
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
         
-        
         if message.name == "authSuccess" {
-            
-            if let dictionary: [String: String] = message.body as? Dictionary {
-                let mergedDicts = merge(dicts: dictionary)
 
-                }
-            }
+            let impUid = message.body as! String
+            Constants.ImpUid = impUid
             
             
             
-            let receiveData = message.body as! String
-            
-
-            
-        
             print(receiveData)
-            
-            
-
-
             print("goood")
+            
+            
 
             self.performSegue(withIdentifier: "testSegue", sender: nil)
 

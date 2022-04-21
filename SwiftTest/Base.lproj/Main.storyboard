@@ -123,11 +123,12 @@
                     <navigationItem key="navigationItem" id="hky-NG-Ngs"/>
                     <connections>
                         <outlet property="finish" destination="8uZ-7x-eHY" id="KKP-wC-KmK"/>
+                        <outlet property="navigationTest" destination="hky-NG-Ngs" id="CSE-bP-txb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V7g-hC-QFy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4796" y="-83"/>
+            <point key="canvasLocation" x="4764" y="-112"/>
         </scene>
         <!--Item-->
         <scene sceneID="WYY-AB-QGZ">

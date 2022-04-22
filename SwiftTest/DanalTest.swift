@@ -59,13 +59,13 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
         
         if message.name == "authSuccess" {
 
-            let impUid = message.body as! String
-            Constants.ImpUid = impUid
-            
-            
-            
-            print(receiveData)
-            print("goood")
+//            let impUid = message.body as! String
+//            Constants.ImpUid = impUid
+//
+//
+//
+//            print(receiveData)
+//            print("goood")
             
             
 

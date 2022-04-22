@@ -18,6 +18,9 @@ class FinishVC: UIViewController {
     @IBOutlet weak var navigationTest: UINavigationItem!
     
 
+    @IBAction func backButton(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
     /*
     // MARK: - Navigation
 

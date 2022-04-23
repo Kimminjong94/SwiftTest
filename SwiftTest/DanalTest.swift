@@ -61,11 +61,6 @@ class DanalTest: UIViewController, WKNavigationDelegate, WKUIDelegate, WKScriptM
 
 //            let impUid = message.body as! String
 //            Constants.ImpUid = impUid
-//
-//
-//
-//            print(receiveData)
-//            print("goood")
             
             
 

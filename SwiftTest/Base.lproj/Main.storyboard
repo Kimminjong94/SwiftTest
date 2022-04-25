@@ -5,7 +5,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
-        <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -149,7 +148,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="hFa-Zz-1yP">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="39" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UaX-D1-jG8">
                                     <size key="itemSize" width="412" height="168"/>
@@ -157,26 +156,7 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="i0y-La-nli">
-                                        <rect key="frame" x="1" y="0.0" width="412" height="168"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="eQi-3T-EMR">
-                                            <rect key="frame" x="0.0" y="0.0" width="412" height="168"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzW-V3-50R">
-                                                    <rect key="frame" x="114" y="74" width="14" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </collectionViewCellContentView>
-                                        <size key="customSize" width="412" height="168"/>
-                                    </collectionViewCell>
-                                </cells>
+                                <cells/>
                             </collectionView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="1mO-W4-cuC"/>
@@ -184,8 +164,8 @@
                         <constraints>
                             <constraint firstItem="hFa-Zz-1yP" firstAttribute="leading" secondItem="1mO-W4-cuC" secondAttribute="leading" id="0TM-Vq-yPq"/>
                             <constraint firstItem="1mO-W4-cuC" firstAttribute="trailing" secondItem="hFa-Zz-1yP" secondAttribute="trailing" id="IxW-fZ-OuV"/>
-                            <constraint firstItem="1mO-W4-cuC" firstAttribute="bottom" secondItem="hFa-Zz-1yP" secondAttribute="bottom" id="Jna-G2-iOC"/>
-                            <constraint firstItem="hFa-Zz-1yP" firstAttribute="top" secondItem="1mO-W4-cuC" secondAttribute="top" id="M4j-LP-1mg"/>
+                            <constraint firstItem="1mO-W4-cuC" firstAttribute="bottom" secondItem="hFa-Zz-1yP" secondAttribute="bottom" constant="5" id="Jna-G2-iOC"/>
+                            <constraint firstItem="hFa-Zz-1yP" firstAttribute="top" secondItem="1mO-W4-cuC" secondAttribute="top" constant="-5" id="M4j-LP-1mg"/>
                         </constraints>
                     </view>
                     <connections>

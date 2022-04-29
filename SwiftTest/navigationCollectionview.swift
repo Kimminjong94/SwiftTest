@@ -26,8 +26,10 @@ extension navigationCollectionview: UICollectionViewDelegate, UICollectionViewDa
 
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "", for: indexPath) as! TestCV
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TestCV", for: indexPath) as! TestCV
         cell.testText.text = "hi"
+        
+        
         return cell
     }
     
